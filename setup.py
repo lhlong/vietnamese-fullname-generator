@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="vn_fullname_generator", # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="Lh Long",
     author_email="lhlong@github.com",
     description="Generate Vietnamese Fullname",
