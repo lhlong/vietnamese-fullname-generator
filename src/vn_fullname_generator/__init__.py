@@ -1,0 +1,1 @@
+from vn_fullname_generator.generator import generate

@@ -28,12 +28,8 @@ def main():
     firstnames = read_file(firstname_filename)
     malenames = read_file(male_filename)
     femalenames = read_file(female_filename)
-    print(len(firstnames), len(malenames), len(femalenames))
 
-
-    while True:
-        generate_fullname(firstnames, malenames, femalenames, random.getrandbits(1))
-        time.sleep(2)
+    generate_fullname(firstnames, malenames, femalenames, random.getrandbits(1))
 
 if __name__=="__main__":
     main()
